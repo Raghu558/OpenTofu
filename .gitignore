@@ -1,0 +1,6 @@
+# Local .gitignore for OpenTofu project
+*.tfstate
+*.lock.hcl
+*.tfstate.backup
+.terraform/
+tofu-sa.json
