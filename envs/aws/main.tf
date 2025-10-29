@@ -27,4 +27,5 @@ module "eks" {
   min_size        = var.min_size
   instance_type   = var.instance_type
   aws_region      = var.aws_region
+  node_group_name = var.node_group_name
 }

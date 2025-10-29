@@ -25,3 +25,4 @@ variable "desired_size" { type = number }
 variable "max_size" { type = number }
 variable "min_size" { type = number }
 variable "instance_type" { default = "t3.medium" }
+variable "node_group_name" {}
