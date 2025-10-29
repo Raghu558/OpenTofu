@@ -33,5 +33,9 @@ variable "instance_type" {
 }
 variable "aws_region" {
   description = "value"
-  type = string
+  type        = string
+}
+variable "node_group_name" {
+  description = "Name of node group"
+  type        = string
 }

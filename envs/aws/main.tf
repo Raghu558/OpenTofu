@@ -9,11 +9,11 @@ module "aws_provider" {
   aws_secret_key = var.aws_secret_key
 }
 
-module "aws_s3_bucket" {
-  source            = "../../infrastructure/modules/aws/s3"
-  bucket_name       = var.bucket_name
-  versioning_status = var.versioning_status
-}
+# module "aws_s3_bucket" {
+#   source            = "../../infrastructure/modules/aws/s3"
+#   bucket_name       = var.bucket_name
+#   versioning_status = var.versioning_status
+# }
 
 module "eks" {
   source = "../../infrastructure/modules/aws/eks"
